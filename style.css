@@ -71,7 +71,7 @@ body {
     animation: container-float 6s ease-in-out infinite, container-glow 4s ease-in-out infinite alternate;
 }
 
-@keyframes container-float {
+/*@keyframes container-float {
     0%, 100% { transform: translateY(0) rotateX(0deg); }
     50% { transform: translateY(-20px) rotateX(5deg); }
 }
@@ -79,7 +79,7 @@ body {
 @keyframes container-glow {
     from { box-shadow: 0 0 5px var(--ncc-gold), 0 0 10px var(--ncc-gold); }
     to { box-shadow: 0 0 20px var(--ncc-gold), 0 0 40px var(--ncc-gold); }
-}
+}*/
 
 .logo img {
     width: 100px;
